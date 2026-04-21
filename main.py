@@ -16,7 +16,7 @@ from scipy.stats import entropy
 app = FastAPI(title="Biodiversity Dashboard", version="1.0.0")
 
 origins = [
-    "https://biodiversitydashboard-ls.netlify.app",
+    "https://biodiversitydashboard-new.netlify.app/",
 ]
 
 app.add_middleware(
